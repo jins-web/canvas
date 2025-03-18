@@ -14,7 +14,7 @@ function Button({ loading = false, onClick, className, children }) {
   return (
     <button className={clazz} onClick={handleClick} disabled={loading}>
       <span className="flex items-center justify-center">
-        {loading && <FaSpinner className="animate-spin mr-1" />}
+        {loading && <FaSpinner className="animate-spin mr-2" />}
         {children}
       </span>
     </button>
